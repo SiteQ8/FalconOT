@@ -1,0 +1,340 @@
+[
+  {
+    "id": "controller-1",
+    "name": "Controller 01",
+    "ip": "192.168.11.11",
+    "type": "Controller",
+    "purdue": "L2",
+    "ports": [
+      22,
+      20000
+    ],
+    "tags": [
+      "OT",
+      "ICS"
+    ]
+  },
+  {
+    "id": "sensor-2",
+    "name": "Sensor 02",
+    "ip": "192.168.12.12",
+    "type": "Sensor",
+    "purdue": "DMZ",
+    "ports": [
+      1883,
+      5020
+    ],
+    "tags": [
+      "IoT"
+    ]
+  },
+  {
+    "id": "controller-3",
+    "name": "Controller 03",
+    "ip": "192.168.13.13",
+    "type": "Controller",
+    "purdue": "L1",
+    "ports": [
+      102,
+      443
+    ],
+    "tags": [
+      "OT",
+      "ICS"
+    ]
+  },
+  {
+    "id": "camera-4",
+    "name": "Camera 04",
+    "ip": "192.168.14.14",
+    "type": "Camera",
+    "purdue": "DMZ",
+    "ports": [
+      443,
+      1883
+    ],
+    "tags": [
+      "IoT"
+    ]
+  },
+  {
+    "id": "robot-5",
+    "name": "Robot 05",
+    "ip": "192.168.15.15",
+    "type": "Robot",
+    "purdue": "DMZ",
+    "ports": [
+      554
+    ],
+    "tags": []
+  },
+  {
+    "id": "broker-6",
+    "name": "Broker 06",
+    "ip": "192.168.16.16",
+    "type": "Broker",
+    "purdue": "L3",
+    "ports": [
+      80,
+      443
+    ],
+    "tags": [
+      "IoT"
+    ]
+  },
+  {
+    "id": "hmi-7",
+    "name": "HMI 07",
+    "ip": "192.168.17.17",
+    "type": "HMI",
+    "purdue": "DMZ",
+    "ports": [
+      20000
+    ],
+    "tags": []
+  },
+  {
+    "id": "sensor-8",
+    "name": "Sensor 08",
+    "ip": "192.168.18.18",
+    "type": "Sensor",
+    "purdue": "DMZ",
+    "ports": [
+      102,
+      1883,
+      20000
+    ],
+    "tags": [
+      "IoT"
+    ]
+  },
+  {
+    "id": "broker-9",
+    "name": "Broker 09",
+    "ip": "192.168.19.19",
+    "type": "Broker",
+    "purdue": "L1",
+    "ports": [
+      1883
+    ],
+    "tags": [
+      "IoT",
+      "ICS"
+    ]
+  },
+  {
+    "id": "broker-10",
+    "name": "Broker 10",
+    "ip": "192.168.20.20",
+    "type": "Broker",
+    "purdue": "L2",
+    "ports": [
+      1883
+    ],
+    "tags": [
+      "IoT",
+      "ICS"
+    ]
+  },
+  {
+    "id": "gateway-11",
+    "name": "Gateway 11",
+    "ip": "192.168.21.21",
+    "type": "Gateway",
+    "purdue": "L3",
+    "ports": [
+      554,
+      1883
+    ],
+    "tags": []
+  },
+  {
+    "id": "historian-12",
+    "name": "Historian 12",
+    "ip": "192.168.22.22",
+    "type": "Historian",
+    "purdue": "L2",
+    "ports": [
+      161,
+      5020,
+      20000
+    ],
+    "tags": [
+      "ICS"
+    ]
+  },
+  {
+    "id": "gateway-13",
+    "name": "Gateway 13",
+    "ip": "192.168.23.23",
+    "type": "Gateway",
+    "purdue": "DMZ",
+    "ports": [
+      1883
+    ],
+    "tags": []
+  },
+  {
+    "id": "controller-14",
+    "name": "Controller 14",
+    "ip": "192.168.24.24",
+    "type": "Controller",
+    "purdue": "L3",
+    "ports": [
+      161,
+      502,
+      554
+    ],
+    "tags": [
+      "OT"
+    ]
+  },
+  {
+    "id": "broker-15",
+    "name": "Broker 15",
+    "ip": "192.168.25.25",
+    "type": "Broker",
+    "purdue": "L2",
+    "ports": [
+      80
+    ],
+    "tags": [
+      "IoT",
+      "ICS"
+    ]
+  },
+  {
+    "id": "sensor-16",
+    "name": "Sensor 16",
+    "ip": "192.168.26.26",
+    "type": "Sensor",
+    "purdue": "L3",
+    "ports": [
+      80,
+      102,
+      502
+    ],
+    "tags": [
+      "IoT"
+    ]
+  },
+  {
+    "id": "hmi-17",
+    "name": "HMI 17",
+    "ip": "192.168.27.27",
+    "type": "HMI",
+    "purdue": "L2",
+    "ports": [
+      20000
+    ],
+    "tags": [
+      "ICS"
+    ]
+  },
+  {
+    "id": "plc-18",
+    "name": "PLC 18",
+    "ip": "192.168.28.28",
+    "type": "PLC",
+    "purdue": "L1",
+    "ports": [
+      22,
+      102,
+      161
+    ],
+    "tags": [
+      "OT",
+      "ICS"
+    ]
+  },
+  {
+    "id": "historian-19",
+    "name": "Historian 19",
+    "ip": "192.168.29.29",
+    "type": "Historian",
+    "purdue": "L3",
+    "ports": [
+      1883,
+      5020
+    ],
+    "tags": []
+  },
+  {
+    "id": "sensor-20",
+    "name": "Sensor 20",
+    "ip": "192.168.30.30",
+    "type": "Sensor",
+    "purdue": "L3",
+    "ports": [
+      443
+    ],
+    "tags": [
+      "IoT"
+    ]
+  },
+  {
+    "id": "hmi-21",
+    "name": "HMI 21",
+    "ip": "192.168.31.31",
+    "type": "HMI",
+    "purdue": "L3",
+    "ports": [
+      443,
+      5020,
+      20000
+    ],
+    "tags": []
+  },
+  {
+    "id": "historian-22",
+    "name": "Historian 22",
+    "ip": "192.168.32.32",
+    "type": "Historian",
+    "purdue": "L3.5",
+    "ports": [
+      20000
+    ],
+    "tags": []
+  },
+  {
+    "id": "hmi-23",
+    "name": "HMI 23",
+    "ip": "192.168.33.33",
+    "type": "HMI",
+    "purdue": "L1",
+    "ports": [
+      502
+    ],
+    "tags": [
+      "ICS"
+    ]
+  },
+  {
+    "id": "plc-24",
+    "name": "PLC 24",
+    "ip": "192.168.34.34",
+    "type": "PLC",
+    "purdue": "L1",
+    "ports": [
+      102,
+      554
+    ],
+    "tags": [
+      "OT",
+      "ICS"
+    ]
+  },
+  {
+    "id": "broker-25",
+    "name": "Broker 25",
+    "ip": "192.168.35.35",
+    "type": "Broker",
+    "purdue": "DMZ",
+    "ports": [
+      5020
+    ],
+    "tags": [
+      "IoT"
+    ]
+  }
+]

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FalconOT</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="app" class="container">
+    <header class="topbar">
+      <div class="brand">
+        <h1>FalconOT</h1>
+        <div class="subtitle">Desktop-only IoT / ICS / OT Self-Security • Demo Mode</div>
+      </div>
+      <div class="controls">
+        <label class="switch">
+          <input id="apiToggle" type="checkbox" />
+          <span>Use Live API</span>
+        </label>
+        <div class="lang">
+          <button data-lang="en">EN</button>
+          <button data-lang="ar">AR</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="layout">
+      <nav class="sidebar">
+        <ul>
+          <li class="active" data-view="overview">Overview</li>
+          <li data-view="inventory">Inventory</li>
+          <li data-view="findings">Findings</li>
+          <li data-view="planner">Scan Planner</li>
+          <li data-view="settings">Settings</li>
+        </ul>
+      </nav>
+
+      <main class="content">
+        <!-- Overview -->
+        <section class="view" id="view-overview">
+          <div id="kpis" class="kpi-grid"></div>
+          <div class="panel">
+            <h2 data-i18n="topology">Topology</h2>
+            <canvas id="graph" width="920" height="320" aria-label="Network Graph"></canvas>
+          </div>
+        </section>
+
+        <!-- Inventory -->
+        <section class="view hidden" id="view-inventory">
+          <div class="panel">
+            <div class="panel-head">
+              <h2 data-i18n="assets">Assets</h2>
+              <input id="searchInput" placeholder="Search assets..." />
+            </div>
+            <div id="asset-table"></div>
+          </div>
+        </section>
+
+        <!-- Findings -->
+        <section class="view hidden" id="view-findings">
+          <div class="panel">
+            <div class="panel-head">
+              <h2 data-i18n="findings">Findings</h2>
+              <select id="sevFilter">
+                <option value="">All severities</option>
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+              </select>
+            </div>
+            <div id="findings-list"></div>
+          </div>
+        </section>
+
+        <!-- Planner -->
+        <section class="view hidden" id="view-planner">
+          <div class="panel">
+            <h2 data-i18n="planner">Scan Planner</h2>
+            <p>Build a safe nmap plan (demo works offline).</p>
+            <button id="planScanBtn">🛠 Plan safe scan</button>
+            <pre id="planOut" class="pre"></pre>
+          </div>
+        </section>
+
+        <!-- Settings -->
+        <section class="view hidden" id="view-settings">
+          <div class="panel">
+            <h2 data-i18n="settings">Settings</h2>
+            <p><strong>Demo Mode</strong> is <span id="demoState">ON</span> by default. Toggle "Use Live API" to fetch from <code>http://localhost:8000</code>.</p>
+            <p>Language: <span id="langState">EN</span> | Layout width: 1440px (no mobile).</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <small>Built in Kuwait by <a href="https://github.com/SiteQ8" target="_blank">@SiteQ8</a> — Apache-2.0</small>
+    </footer>
+  </div>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>

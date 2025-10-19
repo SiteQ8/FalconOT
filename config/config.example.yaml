@@ -1,0 +1,16 @@
+org_name: "Your Company"
+language: "en"           # "en" or "ar"
+mode: "passive"          # passive | safe-active | intrusive (blocked by default)
+allowlist:
+  cidrs:
+    - "203.0.113.0/24"   # YOUR authorized ranges only
+  domains:
+    - "example.com"
+shodan:
+  enabled: true
+  api_key: "${SHODAN_API_KEY}"
+  max_pages: 1
+scanner:
+  nmap_top_ports: 100
+  host_timeout_ms: 8000
+  ics_safe_delays_ms: 150

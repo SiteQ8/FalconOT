@@ -1,0 +1,92 @@
+[
+  {
+    "asset_id": "sensor-20",
+    "severity": "low",
+    "title": "Anonymous MQTT allowed",
+    "remediation": "Require auth and TLS for broker."
+  },
+  {
+    "asset_id": "plc-24",
+    "severity": "high",
+    "title": "Default credentials likely",
+    "remediation": "Rotate creds; enforce MFA on mgmt."
+  },
+  {
+    "asset_id": "robot-5",
+    "severity": "high",
+    "title": "SNMP v2c public",
+    "remediation": "Use SNMPv3 with strong auth/priv; change community strings."
+  },
+  {
+    "asset_id": "hmi-23",
+    "severity": "medium",
+    "title": "Default credentials likely",
+    "remediation": "Rotate creds; enforce MFA on mgmt."
+  },
+  {
+    "asset_id": "broker-15",
+    "severity": "medium",
+    "title": "Default credentials likely",
+    "remediation": "Rotate creds; enforce MFA on mgmt."
+  },
+  {
+    "asset_id": "gateway-13",
+    "severity": "high",
+    "title": "Default credentials likely",
+    "remediation": "Rotate creds; enforce MFA on mgmt."
+  },
+  {
+    "asset_id": "historian-22",
+    "severity": "medium",
+    "title": "Default credentials likely",
+    "remediation": "Rotate creds; enforce MFA on mgmt."
+  },
+  {
+    "asset_id": "sensor-20",
+    "severity": "low",
+    "title": "SNMP v2c public",
+    "remediation": "Use SNMPv3 with strong auth/priv; change community strings."
+  },
+  {
+    "asset_id": "sensor-20",
+    "severity": "medium",
+    "title": "Anonymous MQTT allowed",
+    "remediation": "Require auth and TLS for broker."
+  },
+  {
+    "asset_id": "hmi-7",
+    "severity": "low",
+    "title": "Legacy TLS",
+    "remediation": "Enforce TLS1.2+; disable weak ciphers."
+  },
+  {
+    "asset_id": "camera-4",
+    "severity": "medium",
+    "title": "Modbus TCP exposed",
+    "remediation": "Restrict to engineering subnet; firewall; consider jump host."
+  },
+  {
+    "asset_id": "plc-18",
+    "severity": "low",
+    "title": "Anonymous MQTT allowed",
+    "remediation": "Require auth and TLS for broker."
+  },
+  {
+    "asset_id": "historian-19",
+    "severity": "low",
+    "title": "SNMP v2c public",
+    "remediation": "Use SNMPv3 with strong auth/priv; change community strings."
+  },
+  {
+    "asset_id": "sensor-20",
+    "severity": "medium",
+    "title": "Legacy TLS",
+    "remediation": "Enforce TLS1.2+; disable weak ciphers."
+  },
+  {
+    "asset_id": "controller-3",
+    "severity": "low",
+    "title": "Default credentials likely",
+    "remediation": "Rotate creds; enforce MFA on mgmt."
+  }
+]

@@ -1,0 +1,10 @@
+services:
+  api:
+    build: { context: ., dockerfile: Dockerfile.api }
+    env_file: [.env]
+    ports: ["8000:8000"]
+    volumes: ["./config:/app/config:ro"]
+  ui:
+    build: { context: ., dockerfile: Dockerfile.ui }
+    ports: ["8080:80"]
+    depends_on: [api]
