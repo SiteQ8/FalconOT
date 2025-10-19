@@ -1,6 +1,6 @@
 # FalconOT
 
-Desktop-first (**no mobile support**) IoT / ICS / OT self-security toolkit — **demo data embedded by default** so the UI works out of the box.
+IoT / ICS / OT self-security toolkit — **demo data embedded by default** so the UI works out of the box.
 
 > **Ethics & Scope:** For **authorized self-assessment only**. Scans restricted to allow-listed assets you control. See `DISCLAIMER.md`.
 
