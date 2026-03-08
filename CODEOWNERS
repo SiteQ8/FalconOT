@@ -1,0 +1,23 @@
+# FalconOT Code Owners
+# These owners will be automatically requested for review on PRs.
+
+# Global owner — all files
+*                       @SiteQ8
+
+# API and backend
+/api/                   @SiteQ8
+/scanner/               @SiteQ8
+/requirements.txt       @SiteQ8
+
+# Frontend / GUI
+/docs/                  @SiteQ8
+
+# Infrastructure & CI/CD
+/Dockerfile.*           @SiteQ8
+/compose.yml            @SiteQ8
+/.github/               @SiteQ8
+
+# Security-sensitive files
+/SECURITY.md            @SiteQ8
+/config/                @SiteQ8
+/.env.example           @SiteQ8
