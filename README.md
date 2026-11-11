@@ -1,6 +1,6 @@
 # FalconOT
 
-**IoT / ICS / OT self-security toolkit** — demo data embedded by default so the UI works out of the box.
+**IoT / ICS / OT self-security toolkit**, demo data embedded by default so the UI works out of the box.
 
 > **Ethics & Scope:** For **authorized self-assessment only**. Scans restricted to allow-listed assets you control. See [`DISCLAIMER.md`](DISCLAIMER.md).
 
@@ -9,7 +9,7 @@
 ## Features
 
 - **Dashboard** with KPIs, severity distribution charts, and asset-type breakdown
-- **Network topology** visualization using the Purdue Model (L1–L3.5 + DMZ)
+- **Network topology** visualization using the Purdue Model (L1, L3.5 + DMZ)
 - **Asset inventory** with search, sortable columns, and CSV export
 - **Findings engine** with Critical/High/Medium/Low severity levels
 - **Scan Planner** with ICS-safe profiles (Safe, Quick Discovery, Deep Audit)
@@ -22,7 +22,7 @@
 
 ## Demo
 
-The GUI ships with 25 OT/ICS/IoT assets and 18 findings — no API or backend required.
+The GUI ships with 25 OT/ICS/IoT assets and 18 findings, no API or backend required.
 
 **Demo credentials:**
 
@@ -165,7 +165,7 @@ See [CHANGELOG.md](CHANGELOG.md) for version history.
 
 ## License
 
-[Apache-2.0](LICENSE) — Copyright 2026 [SiteQ8](https://github.com/SiteQ8)
+[Apache-2.0](LICENSE), Copyright 2026 [SiteQ8](https://github.com/SiteQ8)
 
 ---
 
